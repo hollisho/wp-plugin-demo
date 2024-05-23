@@ -12,7 +12,7 @@ class SettingsLinks extends BaseController
     public function settingsLink($links)
     {
         $settingsLink = '<a href="admin.php?page=hollis_wp_plugin">' . __('Settings') . '</a>';
-        array_push($links, $settingsLink);
+        $links[] = $settingsLink;
         return $links;
     }
 }
