@@ -1,0 +1,15 @@
+{
+    "name": "hollisho/wp-plugin-demo",
+    "autoload": {
+        "psr-4": {
+            "hollisho\\wp\\plugin\\inc\\": "inc/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hollis"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
